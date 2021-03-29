@@ -6,7 +6,7 @@ const PORT: number = Number(process.env.PORT) || 3000;
 const HOST: string = String(process.env.HOST);
 
 app.use('/', (req: Request, res: Response) => {
-    res.send('Hello from Node.js Server');
+    res.send('Hello from Node.js Server 🚀');
 });
 
 app.listen(PORT, HOST, () => {
